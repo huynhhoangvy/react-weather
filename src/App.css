@@ -38,6 +38,7 @@ body {
 
 .bg {
   background-image: url("https://hdwallsource.com/img/2014/9/high-resolution-backgrounds-4699-4792-hd-wallpapers.jpg");
+  background-repeat: no-repeat;
 }
 
 html {
