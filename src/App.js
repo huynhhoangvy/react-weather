@@ -70,10 +70,10 @@ class App extends Component {
           <div className='sweet-loading '> <PacmanLoader css={override} sizeUnit={"px"} size={150} color={'yellow'} loading={this.state.loading} /> </div>  
           : 
           <div className="row justify-content-center text-center">
-            <h1 className="col-12 display-4 my-2 py-3 text-warning">{this.state.locationName}</h1>              
-            <h3 className="col-12 text-danger">Temperature: {this.state.temperature - 273.15}ºC</h3>
-            <h3 className="col-12 text-primary">Humidity: {this.state.humidity}%</h3>
-            <h3 className="col-12 text-primary">Wind Speed: {this.state.windSpeed * 3.6} km/h</h3>
+            <h1 className="col-12 display-4 my-2 py-3 text-warning"><i className="fas fa-city"></i> {this.state.locationName}</h1>              
+            <h3 className="col-12 text-danger"><i className='fas fa-temperature-high'></i> {this.state.temperature - 273.15}ºC</h3>
+            <h3 className="col-12 text-primary"><i className="fas fa-tint"></i> {this.state.humidity}%</h3>
+            <h3 className="col-12 text-primary"><i className='fas fa-wind'></i> {this.state.windSpeed * 3.6} km/h</h3>
             <h3 className="col-12 text-primary">{this.state.weatherDescription.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ')}</h3>
           </div>
           }

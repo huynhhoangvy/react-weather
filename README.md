@@ -4,6 +4,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://hoangvy-react-weather.netlify.com/
 
+* Instruction for Netlify error
+
+Grant Location access per mission and allow to load unsafe scripts in the browser, as instructed in the image follows:
+
+![alt text](https://i.imgur.com/mqCIClW.png)
+
+
+## The following **required** Milestones are completed:
+
+* [x] Set up the basic structure of Our App
+* [x] Get the User Location
+* [x] Render the Data to the Front End
+* [x] Display Loading Message
+
+
+## The following **optional** Rockets and features are implemented:
+
+* [x] Nicer Loading Spinners
+* [x] Error Handling
+* [x] Multiple Day Forecast
+* [x] Add icons
+
+## Time Spent
+
+Time spent: **7** hours spent in total.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -70,3 +96,19 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## License
+
+    Copyright [2019] [huynh.h.vy@gmail.com]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
